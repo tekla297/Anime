@@ -23,7 +23,27 @@
                     <nav class="navbar">
                     <ul>
                         <li class="nav-li">Homepage</li>
-                        <li class="nav-li">Categories</li>    
+                        <div class="dropdown">
+                            <li class="nav-li">Categories
+                                <i class="fas fa-angle-double-down"></i>
+                            </li>
+                            <div class="dropdown-content">
+                            <div class="option"><p>Catalog</p></div>
+                            <div class="option"><p>Anime Films</p></div>
+                            <div class="option"><p>TV Shows</p></div>
+                            <div class="option"><p>Release Data</p></div>
+                            </div>
+                          </div>
+                            <!-- <div class="sub-menu">
+                            <i class="fas fa-angle-double-down"></i>
+                            <ul class="cut-menu">
+                                <li class="cut-li">1</li>
+                                <li class="cut-li">1</li>
+                                <li class="cut-li">1</li>
+                                <li class="cut-li">1</li>
+                            </ul>
+                        </div> </li> -->
+
                         <li class="nav-li">Our Blog</li>
                         <li class="nav-li">Contact</li>
                     </ul>
@@ -31,10 +51,14 @@
                        <div class="registr">
                             <a href="registration.html"><i class="fas fa-user-alt"></i></a>
                         </div>
-                        <div>
+                        <!-- <div>
                             <i class="fas fa-search"></i>
-                        </div>
-                        <div class="search" ></div> 
+                        </div> -->
+                        <div class="search-box" >
+                            <input class="search-txt" type="text" name="" placeholder="type to search">
+                            <a class="search-btn" href="#"><i class="fas fa-search"></i></a>
+                            
+                        </div> 
                     </div>
                 </nav>
             </div>   
