@@ -2,6 +2,9 @@ body{
     background: linear-gradient(to right,  rgba(2, 2, 128, 0.829), rgba(250, 131, 151, 0.795));
     /* background: linear-gradient(to right,  rgba(2, 2, 128, 0.829), pink); */
 }
+
+/* container of head section (navigationa-logo, navbar, search ... */
+
 .container{
     flex-wrap: wrap;
     height: 140px;
@@ -33,10 +36,6 @@ body{
     flex-direction: row;
     align-items: center;
 }
-.fa-search, .fa-user-alt{
-    display: flex;
-    flex-direction: row;
- }
  .nav-li{
     margin-right: 40px;
     cursor: pointer;
@@ -47,7 +46,13 @@ body{
     font-size: 20px;
     text-shadow:  rgb(2, 2, 128) 2px 2px 5px ;
 }
-/* dropdown */
+/* dropdown - not visible part*/
+/* icons of search and log in */
+
+.fa-search, .fa-user-alt{
+    display: flex;
+    flex-direction: row;
+ }
 .dropdown {
     position: relative;
     display: inline-block;
@@ -106,6 +111,7 @@ body{
     color: black;
 }
 /* search section hover */
+
 .search-box{
     position: obsolute;
     background: linear-gradient(94deg, rgba(236,235,242,1) 9%, rgba(186,186,191,0.2164216028208158) 100%, rgba(145,145,145,0.5861695019804797) 100%);
@@ -446,6 +452,9 @@ body{
 /* footer */
 .footer{
     display: flex;
-    flex-wrap: wrap;
     height: 200px;
+    background: rgb(13,13,12);
+    background: linear-gradient(0deg, rgba(14,14,14,0.3956933115042892) 0%, rgba(11,11,11,0.1856092778908438) 51%, rgba(12,13,13,0.3984944319524685) 100%);
+    margin-top: 500px;
+
 }
