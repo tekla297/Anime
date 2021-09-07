@@ -14,8 +14,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/82794b2847.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/registration.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
@@ -32,6 +33,7 @@
                     <nav class="navbar">
                     <ul>
                         <a href="index.html"><li class="nav-li">Homepage</li></a>
+                        <!-- dropdown content -->
                         <div class="dropdown">
                             <li class="nav-li">Categories
                                 <i class="fas fa-angle-double-down"></i>
@@ -46,39 +48,41 @@
                         <li class="nav-li">Our Blog</li>
                         <li class="nav-li">Contact</li>
                     </ul>
-                    <div class="log-in">
-                        <!-- registration section -->
-                       <div class="registr">
-                        <div class="dropdown-two">
+                    <!-- section regitration  -->
+                    <div class="log-in"> 
+                        <div class="registration">
+                            <div class="dropdown-two">
                                 <i class="fas fa-user-alt"></i>
-                            <div class="dropdown-content-two">
-                                
-                                <div>
-                                    <label for="username">Username:</label>
-                                    <input type="text" id="username" name="username" placeholder="...Name123">
-                                </div>
-                            
-                                <div>
-                                    <label for="pass">Password</label>
-                                    <input type="password" id="pass" name="password"
-                                        minlength="8" placeholder="...password" required>
-                                </div>
+                                <div class="dropdown-content-two">
+
+                                <!--registration input  -->
+
+                                    <div>
+                                        <label for="username">Username:</label>
+                                        <input type="text" id="username" name="username" placeholder="...Name123">
+                                    </div>
+                                    <div>
+                                        <label for="pass">Password</label>
+                                        <input type="password" id="pass" name="password"
+                                            minlength="8" placeholder="...password" required>
+                                    </div>
                                     <button class="btn">Log In</button>
                                     <a  href="registration.html">
-                                    <div class="account">
-                                        <p>Create Account?</p>
-                                    </div>
-                                </a>
-
+                                        <div class="account">
+                                            <p>Create Account?</p>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                          </div>
-                          <i class="fas fa-bell"></i>
+                            <i class="fas fa-bell"></i>
                         </div>
+
+                        <!-- search section  -->
+
                         <div class="search-box" >
                             <input class="search-txt" type="text" name="" placeholder="type to search">
                             <a class="search-btn" href="#"><i class="fas fa-search"></i></a>
-                            
-                        </div> 
+                        </div>     
                     </div>
                 </nav>
             </div>   
