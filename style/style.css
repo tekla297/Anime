@@ -1,7 +1,6 @@
 body{
     background: linear-gradient(to right,  rgba(2, 2, 128, 0.829), rgba(250, 131, 151, 0.795));
     background-repeat: no-repeat;
-    /* background: linear-gradient(to right,  rgba(2, 2, 128, 0.829), pink); */
 }
 /* navigation - logo, navbar, serach button, registration */
 .logo-img{
@@ -195,6 +194,10 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 30px;
+}
+.size-img{
+    height: 300px;
+    width: 200px;
 }
 .slide{
     display: flex;
