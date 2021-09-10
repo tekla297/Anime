@@ -1,5 +1,6 @@
 video{
     display: flex;
+    flex-wrap: wrap;
     border-radius: 20px;
     background-color: rgb(104, 10, 133);
 }
@@ -15,10 +16,12 @@ video{
     align-items: left;
     flex-direction: column;
     margin: 20px;
+    font-size: 24px;
 }
 #comments{
 outline: none;
 margin: 10px;
+font-size: 20px;
 }
 .tx-com{
     margin: 10px;
@@ -27,11 +30,42 @@ margin: 10px;
 }
 .submit{
     margin: 10px;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     background-color: brown;
     width: 90px;
     height: 50px;
     outline: none;
     border: none;
+    border-radius: 10px;
+}
+/* info */
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.img-anime{
+    width: 300px;
+}
+.info-anime{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    color: white;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 20px;
+    border-radius: 10px;
+}
+.header-1{
+    font-size: 24px;
+}
+.submit:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }

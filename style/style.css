@@ -198,6 +198,8 @@ body{
 .size-img{
     height: 300px;
     width: 200px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .slide{
     display: flex;
@@ -209,7 +211,7 @@ body{
 }
 .back-img{
     background-image:  linear-gradient(90deg, rgba(40, 37, 43, 0.87) 0%, rgba(253,29,29,0.23602944595807074) 50%, rgba(252,176,69,0) 100%), url(../img/static-assets-upload9114746084843840818.png);
-    width: 1000px;
+    width: 850px;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -431,4 +433,11 @@ body{
     margin: 10px;
     display: flex;
     flex-direction: column;
+}
+#touch{
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
 }
