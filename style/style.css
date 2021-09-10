@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
 }
 /* navigation - logo, navbar, serach button, registration */
+
 .logo-img{
     width: 100px;
     height: 95px;
@@ -196,7 +197,14 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 30px;
+    padding-top: 30px;
+}
+.bg-img{
+    background:  linear-gradient(94deg, rgba(107, 32, 192, 0.699) 9%, rgba(186,186,191,0.2164216028208158) 100%, rgba(145, 145, 145, 0.822) 100%), url(../img/e2f39b1c5e80c5d9601d8e0c50c78603.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
 }
 .size-img{
     height: 300px;
@@ -291,6 +299,7 @@ body{
     border-radius: 8px;
     background: rgb(13,13,12);
     background: linear-gradient(0deg, rgba(14,14,14,0.3956933115042892) 0%, rgba(11,11,11,0.1856092778908438) 51%, rgba(12,13,13,0.3984944319524685) 100%);
+    
 }
 .box-one{
     display: flex;
@@ -298,6 +307,7 @@ body{
     flex-direction: column;
     margin: 20px;
     justify-content: center;
+    
 }
 /* box one */
 .top, .end{
