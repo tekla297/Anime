@@ -86,7 +86,6 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    margin-left: 60px;
 }
   .fa-search, .fa-user-alt{
     display: flex;
@@ -104,7 +103,7 @@ body{
     justify-content: center;
     
   }
-  
+
   .dropdown-content-two {
     display: none;
     position: absolute;
@@ -343,22 +342,6 @@ body{
 }
 
 /* section two */
-/* .section-two-blocks{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    width: 100%;
-    height: 500px;
-    justify-content: space-between;
-} */
-/* .top-1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 700px;
-} */
 .end-1, .row-2{
     display: flex;
     flex-wrap: wrap;
