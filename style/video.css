@@ -16,16 +16,16 @@ video{
     align-items: left;
     flex-direction: column;
     margin: 20px;
-    font-size: 24px;
 }
 #comments{
 outline: none;
 margin: 10px;
 font-size: 20px;
+border-radius: 10px;
 }
 .tx-com{
     margin: 10px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
 }
 .submit{
@@ -61,7 +61,7 @@ font-size: 20px;
 .info-anime{
     display: flex;
     flex-direction: column;
-    width: 460px;
+    width: 469px;
     height: 300px;
     color: white;
     justify-content: space-around;

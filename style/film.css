@@ -1,6 +1,6 @@
 .back-img-1{
     background-image:  linear-gradient(90deg, rgba(40, 37, 43, 0.87) 0%, rgba(253,29,29,0.23602944595807074) 50%, rgba(252,176,69,0) 100%), url(../img/10865189.jpg);
-    max-width: 1660px;
+    max-width: 1600px;
     width: 100%;
     height: 700px;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@
 /* section two */
 .section-two{
     background:  url(../img/176797.png);
-    max-width: 1660px;
+    max-width: 1600px;
     width: 100%;
     height: 700px;
     background-repeat: no-repeat;
@@ -118,7 +118,8 @@
 }
 .end-text{
     width: 407px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+    font-size: 20px;
 }
 .end-img{
     height: 480px;
@@ -128,9 +129,9 @@
 }
 .footer-bf{
     background: linear-gradient(90deg, rgba(40, 37, 43, 0.87) 0%, rgba(253,29,29,0.23602944595807074) 50%, rgba(252,176,69,0) 100%), url(../img/kisspng-susuwatari-studio-ghibli-haku-ghibli-museum-anime-ghibli-5ace03eca79d30-0486885515234508606866.png);
-    max-width: 1660px;
+    max-width: 1600px;
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -141,7 +142,7 @@
 }
 .f-input{
     width: 400px;
-    height: 46px;
+    height: 40px;
     margin-top: 30px;
     outline: none;
     font-size: 20px;
