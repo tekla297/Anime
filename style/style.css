@@ -2,6 +2,14 @@ body{
     background: linear-gradient(to right,  rgba(2, 2, 128, 0.829), rgba(250, 131, 151, 0.795));
     background-repeat: no-repeat;
 }
+@font-face {
+    font-family: 'Patrick Hand', cursive;
+    src: url(../fonts/PatrickHand-Regular.ttf);
+}
+@font-face {
+    font-family: 'Exo 2', sans-serif;
+    src: url(../fonts/Exo2-Italic-VariableFont_wght.ttf);
+}
 /* navigation - logo, navbar, serach button, registration */
 
 .logo-img{
@@ -33,7 +41,7 @@ body{
     justify-content: space-evenly;
 }
 .nav-li{
-    font-family: 'Rampart One', cursive;
+    font-family:'Patrick Hand', cursive;
     color: white;
     cursor: pointer;
     font-size: 20px;
@@ -313,6 +321,19 @@ body{
     justify-content: center;
     
 }
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
 /* box one */
 .top, .end{
     display: flex;
@@ -333,6 +354,7 @@ body{
 .head-two{
     color: white;
     font-size: 22px;
+    font-family: 'Exo 2', sans-serif;;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
