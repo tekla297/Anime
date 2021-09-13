@@ -47,6 +47,11 @@
     color: white;
     margin-bottom: 30px;
 }
+.center-text::first-line{
+    color: brown;
+    text-transform: uppercase;
+    text-shadow: 1px 1px white ;
+}
 .btn{
     border-radius: 16px;
     border: none;
@@ -111,6 +116,7 @@
     margin-bottom: 35px;
     font-size: 20px;
 }
+
 .end-img{
     height: 480px;
     max-width: 400px;

@@ -17,8 +17,12 @@
             justify-content: center;
             max-width: 200px;
             width: 100%; 
-            margin-bottom: 80px;
+            height: 900px;
         }
+        .hight{
+            margin-bottom: 10px;
+        }
+ 
     }
     @media (max-width: 979px){
         .blocks{
@@ -49,6 +53,7 @@
             width: 100%;
             max-width: 320px;
             margin: 0 auto;
+            
         }
         .head-two{
             visibility: hidden;
@@ -166,6 +171,7 @@
     @media (max-width: 650px){
         .footer{
            height: 200px;
+           margin-top: 320px;
         }
     }
     @media (max-width: 400px){
