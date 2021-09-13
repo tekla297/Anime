@@ -13,8 +13,8 @@ body{
 /* navigation - logo, navbar, serach button, registration */
 
 .logo-img{
-    width: 100px;
-    height: 95px;
+    width: 85px;
+    height: 85px;
     display: flex;
     flex-wrap: wrap;
     cursor: pointer;
@@ -27,8 +27,6 @@ body{
     align-items: center;
 }
 .header{
-    min-height: 150px;
-    height:100%;
     background: rgb(2, 14, 53);
     background: linear-gradient(0deg, rgba(14,14,14,0.3956933115042892) 0%, rgba(11,11,11,0.1856092778908438) 51%, rgba(12,13,13,0.3984944319524685) 100%);
     justify-content: center;
@@ -37,6 +35,7 @@ body{
     max-width: 1600px;
     width: 100%;
     display: flex;
+    padding: 40px ;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -251,6 +250,7 @@ body{
 .right, .left{
     cursor: pointer;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 50px;
@@ -307,7 +307,7 @@ body{
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 100px;
-    padding: 15px;
+    
     border-radius: 8px;
     background: rgb(13,13,12);
     background: linear-gradient(0deg, rgba(14,14,14,0.3956933115042892) 0%, rgba(11,11,11,0.1856092778908438) 51%, rgba(12,13,13,0.3984944319524685) 100%);
@@ -319,29 +319,17 @@ body{
     flex-direction: column;
     margin: 20px;
     justify-content: center;
-    
-}
-.hamburger {
-    display: none;
 }
 
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #101010;
-}
 /* box one */
-.top, .end{
+.top, .end, .end-1, .row-2{
     display: flex;
     flex-wrap: wrap;
-    width: 900px;
-    display: flex;
-    justify-content: space-between;
     margin: 0 auto;
+    width: 900px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 20px;
 }
@@ -369,17 +357,7 @@ body{
 }
 
 /* section two */
-.end-1, .row-2{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    width: 900px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
+
 .news{
     color: white;
     font-size: 22px;
@@ -391,7 +369,6 @@ body{
 .footer{
     display: flex;
     flex-wrap: wrap;
-    height: 200px;
     justify-content: center;
     align-items: center;
     background: rgb(2, 2, 68);
@@ -401,6 +378,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
     margin: 0 auto;
 }
 .column-one, .column-two, .column-three{

@@ -10,11 +10,6 @@
     justify-content: center;
     margin: 0 auto;
 }
-.nav-li{
-    font-size: 20px;
-    display: flex;
-    color: white;
-}
 .navigation, .nav, .nav-li{
     display: flex;
     flex-wrap: wrap;
@@ -23,17 +18,12 @@
 }
 .navigation{
     Width : 1600px;
-    Height : 250px;
     justify-content: center;
     align-items: center;
-    margin-right: 100px;
 }
 .nav{
     align-items: center;
     justify-content: center;
-}
-.head-logo{
-    margin-right: 50px;
 }
 .center{
     display:flex;
@@ -96,7 +86,7 @@
     margin: 0 auto;
 }
 /*  section main end */
-.end{
+.end-1{
     height: 650px;
     display: flex;
     flex-wrap: wrap;

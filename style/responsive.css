@@ -2,7 +2,7 @@
     .top, .end, .end-1, .row-2{
         flex-direction: row;
         justify-content: center;
-        max-width: 500px;
+        max-width: 450px;
         width: 100%;
         height: 700px;
     }
@@ -10,6 +10,15 @@
         max-width: 450px;
         width: 100%;
     }
+    }
+    @media (max-width: 450px){
+        .top, .end, .end-1, .row-2{
+            flex-direction: column;
+            justify-content: center;
+            max-width: 200px;
+            width: 100%; 
+            margin-bottom: 80px;
+        }
     }
     @media (max-width: 979px){
         .blocks{
@@ -32,15 +41,26 @@
         }
 
     }
+    @media (max-width: 350px){
+        .blocks, .box-one{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            max-width: 320px;
+            margin: 0 auto;
+        }
+        .head-two{
+            visibility: hidden;
+        }
+
+    }
     @media (max-width: 500px){
         .line{
-            display: none;
+    
             justify-content: center;
         }
-        #comments{
-           display: flex;
-           width: 400px;
-        }
+
         .video{
             width: 400px;
         }
@@ -55,9 +75,17 @@
         }
         .info{
             width: 500px;
-
-
         }
+
+        .slide{
+            width: 400px;
+        }
+    }
+    @media (max-width: 580px){
+        .left, .right{
+            visibility: hidden;
+        }
+
     }
     @media (max-width: 650px){
         .top, .end, .end-1, .row-2, .footer{
@@ -80,11 +108,12 @@
             margin: 0 auto;
         }
     }
-    @media (max-width: 1050px){
+    @media (max-width: 1000px){
         .back-img{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            max-width: 700px;
             width: 100%;
             height: 310px;
             max-width: 600px;
@@ -100,9 +129,17 @@
             max-width: 350px;
         }
     }
-    @media (max-width: 600px){
-        .back-img, .slide{
-           display: none;
+    @media (max-width: 400px){
+        .back-img{
+            width: 320px;
+        }
+        .slide{
+            width: 300px;
+        }
+    }
+    @media (max-width: 450px){
+        .slide{
+            width: 350px;
         }
     }
     @media (max-width: 700px){
@@ -111,6 +148,7 @@
            justify-content: center;
            margin: 5px;
         }
+
     }
     @media (max-width: 650px){
         .footer, .columns, .column-one, .column-two, .blank-2, .list{
@@ -121,7 +159,7 @@
         }
     }
     @media (max-width: 630px){
-         #touch, .column-two{
+         #touch, .column-two, .touchs{
            display: none;
         }
     }
@@ -130,20 +168,56 @@
            height: 200px;
         }
     }
+    @media (max-width: 400px){
+        .footer{
+           margin-top: 300px;
+        }
+
+    }
     @media (max-width: 750px){
-        .logo{
+        .lg-place, .logo{
             justify-content: center;
-            width: 100px;
+            width: 90px;
+            padding-top: 5px;
         }
         .size-img{
-            height: 240px;
-            width: 150px;
+            height: 300px;
+            width: 200px;
             display: flex;
             flex-wrap: wrap;
             border-radius: 8px;
             cursor: pointer;
         }
     }
-   
+    @media (max-width: 700px){
+        textarea .video, video,  #comments,  .column-3 {
+            width: 590px;
+        }
+        .info{
+           visibility: hidden;
+        }
+    }
+    @media (max-width: 600px){
+        textarea .video, video,  #comments,  .column-3{
+            width: 500px;
+        }
+    }
+    @media (max-width: 500px){
+        textarea .video, video, #comment, .column-3{
+            width: 400px;
+        }
+    }
+    @media (max-width: 470px){
+        .video, video, #comment, .column-3, textarea{
+            width: 320px;
+        }
+    }
+    @media (max-width: 400px){
+        textarea .video, video, #comment, .comments-1, .column-3{
+            width: 300px;
+        }
+        
+    }
 
+    
    
