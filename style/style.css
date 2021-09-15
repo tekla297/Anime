@@ -206,13 +206,19 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 30px;
+    background:  linear-gradient(94deg, rgba(107, 32, 192, 0.699) 9%, rgba(186,186,191,0.2164216028208158) 100%, rgba(145, 145, 145, 0.822) 100%), url(../img/e2f39b1c5e80c5d9601d8e0c50c78603.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 .bg-img{
-    background:  linear-gradient(94deg, rgba(107, 32, 192, 0.699) 9%, rgba(186,186,191,0.2164216028208158) 100%, rgba(145, 145, 145, 0.822) 100%), url(../img/e2f39b1c5e80c5d9601d8e0c50c78603.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .size-img{
     height: 300px;
@@ -302,25 +308,36 @@ body{
     margin-top: 15px;
 }
 /* img blocks section */
-.blocks{
+/* .blocks{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 100px;
-    
-    border-radius: 8px;
+    justify-content: center;
+} */
+    /* border-radius: 8px;
     background: rgb(13,13,12);
-    background: linear-gradient(0deg, rgba(14,14,14,0.3956933115042892) 0%, rgba(11,11,11,0.1856092778908438) 51%, rgba(12,13,13,0.3984944319524685) 100%);
+    background: linear-gradient(0deg, rgba(14,14,14,0.3956933115042892) 0%, rgba(11,11,11,0.1856092778908438) 51%, rgba(12,13,13,0.3984944319524685) 100%); */
     
-}
 .box-one{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin: 20px;
+    max-width: 1600px ;
+    width: 100%;
+    padding: 30px;
     justify-content: center;
 }
-
+.box-hight{
+    max-width: 1000px;
+    width: 100%;
+    padding: 30px;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgb(13,13,12);
+    background: linear-gradient(0deg, rgba(14,14,14,0.3956933115042892) 0%, rgba(11,11,11,0.1856092778908438) 51%, rgba(12,13,13,0.3984944319524685) 100%);
+}
 /* box one */
 .top, .end, .end-1, .row-2{
     display: flex;
@@ -332,12 +349,6 @@ body{
     justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 20px;
-}
-.end-img{
-    width: 200px;
-    height: 300px;
-    display: flex;
-    flex-wrap: wrap;
 }
 .head-two{
     color: white;

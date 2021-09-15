@@ -9,6 +9,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+  background-attachment: fixed;
+  background-position: center;
 }
 .navigation, .nav, .nav-li{
     display: flex;
@@ -87,6 +89,8 @@
     justify-content: center;
     padding: 30px;
     color: white;
+    background-attachment: fixed;
+    background-position: center;
 }
 .section-two2{
     background:  url(../img/971-9712787_totoro-wallpapers-hd-free-download-cartoon.png);
@@ -100,6 +104,8 @@
     justify-content: center;
     padding: 30px;
     color: white;
+    background-attachment: fixed;
+    background-position: center;
 }
 .left-3, .right-3{
     display: flex;
@@ -121,6 +127,7 @@
     align-items: center;
     background: linear-gradient(90deg, rgba(40, 37, 43, 0.87) 0%, rgba(253,29,29,0.23602944595807074) 50%, rgba(252,176,69,0) 100%);
     border-radius: 10px;
+    
 }
 .left-3{
     display: flex;
@@ -161,8 +168,11 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    background-attachment: fixed;
+    background-position: center;
 }
 #email{
+    max-width: 300px;
     width: 100%;
 }
 .f-input{
@@ -180,9 +190,10 @@
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     
 }
+
 /* footer middle */
 .middle-footer{
     background-color: #f5f6f77c;
@@ -213,7 +224,8 @@
 .fm-apl, .fm-market{
     background-color: brown;
     color: white;
-    width: 150px;
+    max-width: 150px;
+    width: 100%;
     height: 45px;
     border: none;
     border-radius: 16px;

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/82794b2847.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/registration.css">
+        <link rel="stylesheet" href="style/responsive.css">
+        <link rel="stylesheet" href="style/video.css">
+        <title>Video</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="logo">
+                        <a href="index.html"><img class="logo-img" src="img/XO2bWOwWxYMnACEV9xvGGA_store_logo_image.png" alt="logo"></a>
+                    </div>
+                        <nav class="navbar">
+                        <ul>
+                            <a href="index.html"><li class="nav-li">Homepage</li></a>
+                            <!-- dropdown content -->
+                            <div class="dropdown">
+                                <li class="nav-li">Categories
+                                    <i class="fas fa-angle-double-down"></i>
+                                </li>
+                                <div class="dropdown-content">
+                                <div class="option"><p>Catalog</p></div>
+                                <div class="option"><a href="animefilm.html"><p class="color">Anime Films</p></a></div>
+                                <div class="option"><p>TV Shows</p></div>
+                                <div class="option"><p>Release Data</p></div>
+                                </div>
+                              </div>
+                            <li class="nav-li">Our Blog</li>
+                            <li class="nav-li">Contact</li>
+                        </ul>
+                        <!-- section regitration  -->
+                        <div class="log-in"> 
+                            <div class="registration">
+                                <div class="dropdown-two">
+                                    <i class="fas fa-user-alt"></i>
+                                    <div class="dropdown-content-two">
+    
+                                    <!--registration input  -->
+    
+                                        <div>
+                                            <label for="username">Username:</label>
+                                            <input type="text" id="username" name="username" placeholder="...Name123">
+                                        </div>
+                                        <div>
+                                            <label for="pass">Password</label>
+                                            <input type="password" id="pass" name="password"
+                                                minlength="8" placeholder="...password" required>
+                                        </div>
+                                        <button class="btn">Log In</button>
+                                        <a  href="registration.html">
+                                            <div class="account">
+                                                <p>Create Account?</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <i class="fas fa-bell"></i>
+                            </div>
+    
+                            <!-- search section  -->
+    
+                            <div class="search-box" >
+                                <input class="search-txt" type="text" name="" placeholder="type to search">
+                                <a class="search-btn" href="#"><i class="fas fa-search"></i></a>
+                            </div>     
+                        </div>
+                    </nav>
+                </div>   
+            </div>
+        </header>
+        <main class="main bg-img-11">
+            <div class="column-3">
+                 <div class="info">
+                    <div class="img-anime">
+                        <img class="size-img" src="img/spirited_away_1.jpg" alt="">
+                    </div>
+                <div class="info-anime">
+                    <h1 class="header-1">Spirited Away (2001) </h1>
+                    
+                    <p>
+                        Spirited Away: 
+                    During her family's move to the suburbs, a sullen 10-year-old 
+                    girl wanders into a world ruled by gods, witches, and spirits, 
+                    and where humans are changed into beasts.</p>
+                  
+                    <p>
+                        irected by Hayao Miyazaki. 
+                        With Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takashi Naitô.
+                    </p>
+                    
+                </div>
+    
+            </div>
+            <div class="video">
+                <video width="700" height="550" 
+                controls poster="img/Rs(2).jpg"> 
+                <source src="#" type="video/mp4">          
+                </video>
+                 <form class="comments-1" action="#">
+                    <div class="comments">
+                        <div class="tx-com"><label for="comments">Comments:</label></div>
+                        <div><textarea id="comments" name="comments" rows="6" cols="60"></textarea></div>
+                        <div><input class="submit" type="submit" value="Submit"></div>
+                    </div>         
+                </form>
+            </div>
+            </div>
+           
+           
+                
+          
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="columns">
+                    <div class="column-one">
+                       
+                           <p class="list">Home</p>
+                           <p class="list">Photos</p>
+                           <p class="list">Contact</p>
+                                
+                   </div>
+                   <div class="column-two">                 
+                           <p class="list">About</p>
+                           <p class="list">Help</p>
+                           <p class="list">Guidlines</p>                
+                   </div>
+                   <div class="lg-place"><img class="logo-img" src="img/XO2bWOwWxYMnACEV9xvGGA_store_logo_image.png" alt="logo"></div>
+                   <div class="blank-2">
+                       <input class="touch" type="text" id="touch" name="touch">
+                       <label  class="touchs" for="touch">Stay in touch</label>
+                   </div>
+            </div>
+        </footer>
+    </body>
+    </html>

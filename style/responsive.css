@@ -29,7 +29,7 @@
  
     }
     @media (max-width: 979px){
-        .blocks{
+        .blocks, .box-hight{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -39,7 +39,7 @@
         }
     }
     @media (max-width: 817px){
-        .blocks{
+        .blocks, .box-hight{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -50,7 +50,7 @@
 
     }
     @media (max-width: 350px){
-        .blocks, .box-one{
+        .blocks, .box-one, .box-hight{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -75,7 +75,8 @@
             width: 100%;
         }
         .info-anime{
-            width: 400px;
+            max-width: 400px;
+            width: 100%;
             padding: 0;
             height: 600px;
         }
@@ -126,19 +127,26 @@
             margin: 0 auto;
         }
     }
-    @media (max-width: 1400px){
+    @media (max-width: 1450px){
         .back-img{
             max-width: 600px;
             width: 100%;
             height: 310px
             ;
         }
+        .block, .box-one .box-hight{
+            max-width: 1000px;
+            width: 100%;
+            flex-wrap: wrap;
+            padding: 5px;
+        }
+        
     }
     @media (max-width: 840px){
         .back-img{
             width: 100%;
             height: 300px;
-            max-width: 450px;
+            max-width: 350px;
         }
         .end-11{
             justify-content: center;
@@ -271,8 +279,8 @@
 
     }
     @media (max-width: 400px){
-        .footer{
-           margin-top: 100px;
+        footer{
+           margin-top: 160px;
         }
         .head-two{
             font-size: 16px;
@@ -284,10 +292,11 @@
             justify-content: center;
             width: 100%;
             height: 300px;
-            max-width: 310px;
+            max-width: 320px;
         }
         .slide{
-            width: 310px;
+            max-width: 320px;
+            width: 100%;
         }
         .fm-t,  .fm-tm, .fm-logo{
            width: 100%;
@@ -317,24 +326,50 @@
         }
         .info{
            visibility: hidden;
+           display: none;
+           align-items: center;
+           width: 320px;
+           width: 100%;
+           justify-content: center;
+           height: 400px;
+        }
+        .info-anime, .info{
+            justify-content: center;
+            width: 320px;
+            align-items: center;
+            font-size: 15px;
+            flex-direction: column;
+            margin-right: 50px;
+        }
+        .header-1, .img-anime{
+            visibility: visible;
+        }
+        .header-1{
+            margin-left: 25px;
         }
     }
     @media (max-width: 600px){
-        textarea .video, video,  #comments,  .column-3{
+        textarea .video, video,  #comments,  .column-3, .info-anime, .info{
             max-width: 500px;
             width: 100%;
+            justify-content: center;
         }
     }
     @media (max-width: 500px){
-        textarea .video, video, #comment, .column-3{
+        textarea .video, video, #comment, .column-3, .info-anime, .info{
             max-width: 400px;
             width: 100%;
+            justify-content: center;
         }
     }
     @media (max-width: 470px){
-        .video, video, #comment, .column-3, textarea{
+        .video, video, #comment, .column-3, textarea, .info-anime, .info{
             max-width: 320px;
             width: 100%;
+            justify-content: center;
+        }
+        .info{
+            justify-content: center;
         }
     }
     @media (max-width: 400px){
@@ -348,7 +383,7 @@
             margin-top: 120px;
         }
     }
-    @media (max-width: 490px){
+    @media (max-width: 550px){
         .line{
             width: 300px;
         }
@@ -371,14 +406,15 @@
             display: none;
         }
     }
-    @media (max-width: 575px){
+    @media (max-width: 585px){
         .back-img{
             width: 100%;
             height: 300px;
             max-width: 390px;
         }
         .slide{
-            width: 390px;
+            max-width: 340px;
+            width: 100%;
         }
     }
 
