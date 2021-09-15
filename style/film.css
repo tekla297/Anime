@@ -34,7 +34,8 @@
     text-align: center;
 }
 .center-head{
-    width: 730px;
+    max-width: 730px;
+    width: 100%;
     color: white;
     font-size: 55px;
     font-weight: bold;
@@ -42,7 +43,8 @@
     margin-bottom: 20px;
 }
 .center-text{
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     font-size: 18px;
     color: white;
     margin-bottom: 30px;
@@ -53,21 +55,22 @@
     text-shadow: 1px 1px white ;
 }
 .btn{
-    border-radius: 16px;
+    border-radius: 20px;
     border: none;
     outline: none;
     color: white;
     background: rgb(187, 33, 58);
     margin-bottom: 183px;
-    width: 184px;
+    max-width: 184px;
+    width: 100%;
     height: 46px;
     border: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
     transition: all .2s ease-in-out;
 }
 .btn:hover { 
-    transform: scale(1.2); 
+    transform: scale(1.1); 
 }
 
 
@@ -76,13 +79,26 @@
     background:  url(../img/176797.png);
     max-width: 1600px;
     width: 100%;
-    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    padding: 30px;
+    color: white;
+}
+.section-two2{
+    background:  url(../img/971-9712787_totoro-wallpapers-hd-free-download-cartoon.png);
+    max-width: 1600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
     color: white;
 }
 .left-3, .right-3{
@@ -92,9 +108,15 @@
 }
 /*  section main end */
 .end-11{
-    height: 650px;
+    max-height: 1200px;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    padding: 30px;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     background: linear-gradient(90deg, rgba(40, 37, 43, 0.87) 0%, rgba(253,29,29,0.23602944595807074) 50%, rgba(252,176,69,0) 100%);
@@ -110,16 +132,20 @@
     font-weight: 28px;
     font-size: 24px;
     margin-bottom: 20px;
+    width: 100%;
 }
 .end-text{
-    width: 407px;
+    max-width: 407px;
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
     margin-bottom: 35px;
     font-size: 20px;
 }
-
 .end-img{
-    height: 480px;
-    max-width: 400px;
+    max-height: 500px;
+    height: 100%;
+    max-width: 380px;
     width: 100%;
     border-radius: 10px;
 }
@@ -136,8 +162,12 @@
     align-items: center;
     margin: 0 auto;
 }
+#email{
+    width: 100%;
+}
 .f-input{
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 40px;
     margin-top: 30px;
     outline: none;
@@ -163,12 +193,14 @@
     text-align: center;
 }
 .midl-text{
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 
 }
 .fm-text{
     text-align: center;
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     margin: 20px;
     font-size: 14px;
     color: #4E4E4E;
@@ -196,25 +228,36 @@
 
 /* footer end section */
 .end-footer{
-    height: 185px;
+    height: 200px;
+    width: 100%;
     background-color: #00000059;
     display: flex;
+    flex-wrap: wrap;
     color: white;
     align-items: center;
     justify-content: space-around;
 }
+.footer-fm{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 .list{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
-.fm-t, .fm-logo, .fm-tm{
+.fm-t, .fm-logo, .fm-tm, .footer-fm{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 .fm-logo{
-    margin: 0 100px 0 100px;
+    margin:0 auto;
 }
 .fm-t{
     margin-left: 35px;
-
 }
