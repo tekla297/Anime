@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/82794b2847.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="/style/responsive.css">
-    <link rel="stylesheet" href="style/registration.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
-    <title>Anime-World</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:url"                content="https://kristina-makalatia.github.io/lesson12-unilab/" />
+        <meta property="og:type"               content="article" />
+        <meta property="og:title"              content="Our Facebook Title" />
+        <meta property="og:description"        content="Our Facebook Description" />
+        <meta property="og:image"              content="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/82794b2847.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/responsive.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/registration.css">
+        <title>Document</title>
+    </head>
 <body>
     <!-- header navigation bar -->
     <header class="header">
@@ -31,14 +24,14 @@
                 <div class="logo">
                     <a href="index.html"><img class="logo-img" src="img/XO2bWOwWxYMnACEV9xvGGA_store_logo_image.png" alt="logo"></a>
                 </div>
-                    <nav class="navbar">
-                    <ul>
-                        <a href="index.html"><li class="nav-li"><span class="span">Homepage</span> </li></a>
+                    <div class="navbar">
+                    <div class="ul">
+                        <a href="index.html"><div class="nav-li"><span class="span">Homepage</span> </div></a>
                         <!-- dropdown content -->
                         <div class="dropdown">
-                            <li class="nav-li">Categories
+                            <div class="nav-li">Categories
                                 <i class="fas fa-angle-double-down"></i>
-                            </li>
+                            </div>
                             <div class="dropdown-content">
                             <div class="option"><p>Catalog</p></div>
                             <div class="option"><a href="animefilm.html"><p class="color">Anime Films</p></a></div>
@@ -46,9 +39,9 @@
                             <div class="option"><p>Release Data</p></div>
                             </div>
                           </div>
-                        <li class="nav-li">Our Blog</li>
-                        <li class="nav-li">Contact</li>
-                    </ul>
+                        <div class="nav-li">Our Blog</div>
+                        <div class="nav-li">Contact</div>
+                    </div>
                     <!-- section regitration  -->
                     <div class="log-in"> 
                         <div class="registration">
@@ -60,7 +53,7 @@
 
                                     <div>
                                         <label for="username">Username:</label>
-                                        <input type="text" id="username" name="username" placeholder="...Name123">
+                                        <input type="text" id="username" name="username" placeholder="...Name123" required>
                                     </div>
                                     <div>
                                         <label for="pass">Password</label>
@@ -81,11 +74,11 @@
                         <!-- search section  -->
 
                         <div class="search-box" >
-                            <input class="search-txt" type="text" name="" placeholder="type to search">
+                            <input class="search-txt" type="text" name="search" placeholder="type to search">
                             <a class="search-btn" href="#"><i class="fas fa-search"></i></a>
                         </div>     
                     </div>
-                </nav>
+                </div>
             </div>   
         </div>
     </header>
@@ -108,12 +101,12 @@
                         <input type="email" id="email" name="email" placeholder="name@..com" required/>    
                     </div>
                     <div  class="input">
-                        <label for="Password"> Password </label>  
-                        <input type="Password" id="password" name="password" placeholder="*******" required> 
+                        <label for="password"> Password </label>  
+                        <input type="Password" id="password" name="password" placeholder="*******" required/> 
                     </div>
                     <div  class="input">
                         <label> Confirm password </label>
-                        <input type="Password" id="repass" name="repass" placeholder="*******" required>
+                        <input type="Password" id="repass" name="repass" placeholder="*******" required/>
                         <div class="btn-sub">
                             <input type="button" value="Submit" id="submit"/>  
                         </div> 
@@ -125,12 +118,10 @@
     <footer>
         <div class="footer">
             <div class="columns">
-                <div class="column-one">
-                   
+                <div class="column-one">                  
                        <p class="list">Home</p>
                        <p class="list">Photos</p>
-                       <p class="list">Contact</p>
-                            
+                       <p class="list">Contact</p>       
                </div>
                <div class="column-two">                 
                        <p class="list">About</p>
@@ -142,7 +133,7 @@
                    <input class="touch" type="text" id="touch" name="touch">
                    <label  class="touchs" for="touch">Stay in touch</label>
                </div>
-
+            </div> 
         </div>
     </footer>
 </body>

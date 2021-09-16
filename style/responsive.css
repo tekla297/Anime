@@ -196,7 +196,7 @@
         }
     }
     @media (max-width: 700px){
-        .header, .container, .row, .navbar, ul, .nav-li{
+        .header, .container, .row, .navbar, .ul, .nav-li{
            flex-direction: row;
            justify-content: center;
            margin: 5px;
