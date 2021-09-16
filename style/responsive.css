@@ -361,6 +361,13 @@
             width: 100%;
             justify-content: center;
         }
+       
+    }
+    @media (max-width: 530px){
+        
+        .navigation{
+            padding-top: 20px;
+        }
     }
     @media (max-width: 470px){
         .video, video, #comment, .column-3, textarea, .info-anime, .info{
@@ -381,6 +388,9 @@
     @media (max-width: 390px){
         .footer{
             margin-top: 120px;
+        }
+        .center-head{
+            display: none;
         }
     }
     @media (max-width: 550px){
