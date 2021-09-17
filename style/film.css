@@ -199,6 +199,9 @@
     border-radius: 10px;
     
 }
+.smm{
+    margin-top: 80px;
+}
 .left-3{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -211,7 +214,6 @@
 .end-head{
     font-weight: bold;
     text-transform: uppercase;
-    font-weight: 28px;
     font-size: 24px;
     margin-bottom: 20px;
     width: 100%;

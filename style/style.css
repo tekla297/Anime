@@ -221,7 +221,6 @@ body{
 /* search section hover */
 
 .search-box{
-    position: obsolute;
     background: -o-linear-gradient(356deg, rgba(236,235,242,1) 9%, rgba(186,186,191,0.2164216028208158) 100%, rgba(145,145,145,0.5861695019804797) 100%);
     background: linear-gradient(94deg, rgba(236,235,242,1) 9%, rgba(186,186,191,0.2164216028208158) 100%, rgba(145,145,145,0.5861695019804797) 100%);
     height: 50px;
@@ -415,8 +414,8 @@ body{
 .img-tbn{
     background: rgb(165, 31, 54);
     color: white;
-    width: 150px;
-    height: 50px;
+    width: 180px;
+    height: 45px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -426,9 +425,10 @@ body{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
     margin-top: 40px;
+    margin-bottom: 10px;
     cursor: pointer;
     font-size: 20px;
     -webkit-transition: all .2s ease-in-out;
